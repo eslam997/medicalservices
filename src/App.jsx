@@ -9,6 +9,7 @@ import Signup from './pages/Signup'
 import Dashboard from './pages/Dashboard'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import Payment from './pages/Payment/Payment'
 import { CartProvider } from './context/CartContext'
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/Payment" element={<Payment/>}/>
           </Routes>
         </main>
         <Footer />
